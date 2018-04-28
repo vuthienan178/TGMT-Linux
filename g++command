@@ -1,0 +1,1 @@
+g++ -std=c++11 -I/home/vuthienan178/Downloads/TGMT-linux -I/usr/local/include/opencv -I/usr/include/tesseract -l/usr/local/lib -ltesseract main.cpp utility.cpp image.cpp mapping.cpp stdafx.cpp cutimage.cpp
