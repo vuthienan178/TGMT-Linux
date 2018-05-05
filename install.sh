@@ -1,10 +1,10 @@
 # Configuration
-HOME_DIR=/home/vuthienan178/Desktop
-VERSION=3.0.0
+HOME_DIR=/home/long
+VERSION=3.4.1
 
 # Installation
-sudo apt-get update
-sudo apt-get upgrade
+# sudo apt-get update
+# sudo apt-get upgrade
 sudo apt-get install -y build-essential cmake pkg-config
 sudo apt-get install -y libjpeg8-dev libtiff5-dev libjasper-dev libpng12-dev
 sudo apt-get install -y libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
@@ -37,5 +37,5 @@ make -j4
 make install
 sudo ldconfig
 
-#cd ${HOME_DIR}
-#rm -rf opencv-${VERSION} opencv_contrib-${VERSION} opencv.zip opencv_contrib.zip
+cd ${HOME_DIR}
+rm -rf opencv-${VERSION} opencv_contrib-${VERSION} opencv.zip opencv_contrib.zip
